@@ -99,7 +99,7 @@ Route::get('/tentang-kamiAft', function () {
     return view('tentang-kamiAft');
 })->name('tentang-kamiAft');
 
-Route::get('/', [userController::class, 'index']) -> name('index');
+Route::get('/user', [userController::class, 'index']) -> name('index');
 Route::get('/createuser', [userController::class, 'create']) -> name('create');
 Route::post('/storeuser', [userController::class, 'store']) -> name('store');
 Route::get('/ubahProfile', [userController::class, 'showProfile'])->name('ubahProfile');
