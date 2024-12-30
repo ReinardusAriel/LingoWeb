@@ -103,5 +103,5 @@ Route::get('/user', [userController::class, 'index']) -> name('index');
 Route::get('/createuser', [userController::class, 'create']) -> name('create');
 Route::post('/storeuser', [userController::class, 'store']) -> name('store');
 Route::get('/ubahProfile', [userController::class, 'showProfile'])->name('ubahProfile');
-Route::get('/user/{id}/edit', [UserController::class, 'edit'])->name('user.edit');
-Route::post('/updateuser/{id}', [UserController::class, 'update'])->name('update');
+Route::get('/user/{id}/edit', [userController::class, 'edit'])->name('user.edit');
+Route::post('/updateuser/{id}', [userController::class, 'update'])->name('update');
