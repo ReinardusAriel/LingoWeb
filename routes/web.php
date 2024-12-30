@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\userController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\EnrollmentController;
 use App\Http\Controllers\KaryawanController;
